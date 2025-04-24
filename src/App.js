@@ -238,9 +238,8 @@ function App() {
               <div className="skill-items">
                 <div className="skill-item">Arduino</div>
                 <div className="skill-item">Raspberry Pi</div>
-                <div className="skill-item">3D Design</div>
-                <div className="skill-item">NLP/NLTK</div>
-                <div className="skill-item">SciPy</div>
+                <div className="skill-item">CAD design</div>
+                <div className="skill-item">NLP</div>
               </div>
             </div>
           </div>
