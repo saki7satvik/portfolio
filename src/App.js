@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { Link as ScrollLink } from 'react-scroll';
+import myImage from "./me.png"; // Adjust the path as necessary
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -130,7 +131,7 @@ function App() {
             </div>
             <div className="about-image">
               <div className="placeholder-image">
-              <img src="src/assets/images/me.jpg"></img>
+                <img src={myImage} alt="About Me" />
               </div>
             </div>
           </div>
